@@ -12,6 +12,7 @@ a:link{color: #212529;}
     padding: 10px;
 }
 
+
 /* CONTENT */
 #content{
     background-image: url(../image/KakaoTalk_20210624_141504799.jpg);
@@ -22,6 +23,7 @@ a:link{color: #212529;}
     width: 100%;
     height: 100%;
 }
+
 
 .content-box-group{
     margin-top: 5%;
