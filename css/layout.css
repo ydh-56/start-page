@@ -7,10 +7,11 @@ a:link{color: #212529;}
     justify-content: center;
     margin-top: 25px;    
 }
-/* .logo-img {
+.logo-img {
     background-color: #fff;
     padding: 10px;
-} */
+    border: 1px solid #fff;
+}
 
 
 /* CONTENT */
