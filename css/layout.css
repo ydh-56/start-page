@@ -1,13 +1,15 @@
 html,body{ margin:0; padding:0; width:100%; height:100% }
 a:link{color: #212529;}
 
-#header{
-     margin: 0.5rem 0; 
-    
-}
-#header .header-logo{
+
+.header-logo{
     display: flex;
     justify-content: center;
+    margin-top: 25px;    
+}
+.logo-img {
+    background-color: #fff;
+    padding: 10px;
 }
 
 /* CONTENT */
@@ -27,11 +29,13 @@ a:link{color: #212529;}
 .fun-fact {
 	background-color: #fff;
     opacity: 85%;
+    width: 90%;
+    height: 90%;
     cursor: pointer;
 	border-radius: 4px;
 	font-size: 14px;
 	line-height: 2rem;
-	padding: 40px;
+	padding: 30px;
 	margin-bottom: 20px;
 }
 .content-box .fun-fact:hover{
@@ -55,14 +59,17 @@ a:link{color: #212529;}
 }
 .content-text{
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.5;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .content-text p{
     margin-top: 5px;
     line-height: 1.2;
     font-size: 1.3rem;
+}
+.content-box-group {
+    margin-top: 13%;
 }
 
 /* FOOTER */
